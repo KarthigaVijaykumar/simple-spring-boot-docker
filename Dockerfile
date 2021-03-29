@@ -1,4 +1,4 @@
 FROM openjdk:8
 EXPOSE 8080
-ADD target/simple-springboot-docker.jar simple-springboot-docker.jar 
+ADD target/simple-project.jar simle-project.jar 
 ENTRYPOINT ["java","-jar","/simple-springboot-docker.jar"]
